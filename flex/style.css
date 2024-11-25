@@ -1,0 +1,44 @@
+.container {
+    /* Ativar o css  flex*/
+    display: flex;
+    
+    /* Direção */
+    flex-direction: row;
+
+    /* Alinhamento dos itens */
+    justify-content: center;
+
+    /* Alinhamento vertical */
+    align-items: baseline;
+    
+    /* Quebra de linha */ 
+    flex-wrap: wrap;
+}
+
+body {
+    color: aliceblue;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+#c1 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    /*Box model, espaçamento das laterais*/
+    padding: 20px 0px 0px 20px;
+}
+
+#c2 {
+    width: 150px;
+    height: 150px;
+    background-color: #ff0000;
+    padding: 10px 0px 0px 10px;
+}
+
+#c3 {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    padding: 50px 0px 0px 50px;
+}
